@@ -8,16 +8,19 @@ The following model dynamically calls stock prices from the yahoo finance.
 
 # Positional Arguments
     ticker = Ticker symbol for the stock
-    start , end = The time period in days you want to look back
+    start = The beginning time period
+    end = The end time period
 
 
 # Call:
-    yf.download(tickers='AMD',start= "1980-01-01")
-
+    ticker = 'AMD'
+    start = "1980-01-01"
+    end = "2025-01-01"
+    df = yf.download(tickers= ticker,start=start, end=end)
     Output
         tmp/ipython-input-496447581.py:1: FutureWarning: YF.download() has changed argument auto_adjust default to True
-  df = yf.download(tickers='AMD',start= "1980-01-01")
-    [*********************100%***********************]  1 of 1 completed.
+        df = yf.download(tickers='AMD',start= "1980-01-01")
+        [*********************100%***********************]  1 of 1 completed.
 
 # Yang-Zhang volatility estimator
 ![PbijZ](https://github.com/user-attachments/assets/5185bd54-bacc-44c4-a3cc-e5a336e67c20)
