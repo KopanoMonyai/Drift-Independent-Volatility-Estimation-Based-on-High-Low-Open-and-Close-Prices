@@ -20,15 +20,7 @@ The following model dynamically calls stock prices from the yahoo finance.
 [*********************100%***********************]  1 of 1 completed.
 
 # Yang-Zhang volatility estimator
-            plt.figure(figsize=(12, 6))
-            plt.plot(df.index, yz_vol, label="Yang-Zhang Volatility", color="blue")
-            plt.title("Estimated Volatility Over Time")
-            plt.xlabel("Date")
-            plt.ylabel("Volatility (Standard Deviation)")
-            plt.grid(True)
-            plt.legend()
-            plt.tight_layout()
-            plt.show()
+    When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$.
  # Sample Output
 <img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/c37163dd-9562-46d3-b25a-0c2d167be641" />
 
