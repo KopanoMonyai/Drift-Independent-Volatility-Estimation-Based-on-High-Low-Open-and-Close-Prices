@@ -1,5 +1,4 @@
 # Drift-Independent-Volatility-Estimation-Based-on-High-Low-Open-and-Close-Prices
-# geometric-brownian-motion
 Volatility is important as it determines the risk an investor is taking when investing, it gives confidence to the investor, as many investors are already reluctant when it comes to option contracts due to the many unpredictable factors that affect the price. It is for this reason that the prediction of volatility plays a very important role in the pricing of option contracts. In this project, we will consider the Yang-Zhang volatility estimator to estimate the volatility of an underlying variable using Python.
 
 Yang-Zhang volatility estimator is a drift-independent volatility estimator that combines the overnight volatility, the open-to-close volatility, and the close-to-close volatility into one unbiased, efficient measure.
