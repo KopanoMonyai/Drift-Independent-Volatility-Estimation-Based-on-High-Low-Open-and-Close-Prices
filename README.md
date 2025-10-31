@@ -24,8 +24,11 @@ The following model dynamically calls stock prices from the yahoo finance.
 
 
  # Sample Output
-<img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/c37163dd-9562-46d3-b25a-0c2d167be641" />
+<img width="1189" height="590" alt="download (1)" src="https://github.com/user-attachments/assets/8588cba5-84e4-432b-8fe3-ad2e81ad51c3" />
 
+    Estimated volatility Ticker
+    AMD    3.975823
+    dtype: float64
  
 
 You are welcome to use this code. Any contribution to improve this model is appreciated.
