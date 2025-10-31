@@ -20,7 +20,9 @@ The following model dynamically calls stock prices from the yahoo finance.
 [*********************100%***********************]  1 of 1 completed.
 
 # Yang-Zhang volatility estimator
-    When $a \ne 0$, there are two solutions to $(ax^2 + bx + c = 0)$.
+![PbijZ](https://github.com/user-attachments/assets/5185bd54-bacc-44c4-a3cc-e5a336e67c20)
+
+
  # Sample Output
 <img width="1189" height="590" alt="download" src="https://github.com/user-attachments/assets/c37163dd-9562-46d3-b25a-0c2d167be641" />
 
