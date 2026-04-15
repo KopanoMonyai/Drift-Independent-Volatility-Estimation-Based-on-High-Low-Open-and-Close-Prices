@@ -27,7 +27,52 @@ The following model dynamically calls stock prices from the yahoo finance.
         [*********************100%***********************]  1 of 1 completed.
 
 # Yang-Zhang volatility estimator
-![PbijZ](https://github.com/user-attachments/assets/5185bd54-bacc-44c4-a3cc-e5a336e67c20)
+
+The estimator combines overnight, open-to-close, and range-based components:
+
+$$
+\sigma^2_{YZ} = \sigma^2_{OV} + k \cdot \sigma^2_{RS} + (1-k) \cdot \sigma^2_{C}
+$$
+
+where:
+
+$$
+\sigma^2_{OV} = \frac{1}{n} \sum_{t=1}^{n} \left( \ln \frac{O_t}{C_{t-1}} \right)^2
+$$
+
+$$
+\sigma^2_{C} = \frac{1}{n} \sum_{t=1}^{n} \left( \ln \frac{C_t}{O_t} \right)^2
+$$
+
+$$
+\sigma^2_{RS} = \frac{1}{n} \sum_{t=1}^{n} \left( \ln \frac{H_t}{L_t} \right)^2
+$$
+
+$$
+k = \frac{0.34}{1.34 + \frac{n+1}{n-1}}
+$$
+
+with:
+
+$$
+\{O_t}: \{opening} {price} {at} {time} {(t)}
+$$
+
+$$
+\{C_t}: \{closing} {price} {at} {time} {(t)}
+$$
+
+$$
+\{H_t}: \{high} {price} {at} {time} {(t)}  
+$$
+
+$$
+\{L_t}: \{low} {price} {at} {time} {(t)}  
+$$
+
+$$
+\{n}: \{number} {of} {periods}
+$$
 
 
  # Sample Output
