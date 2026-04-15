@@ -76,7 +76,7 @@ $$
 
 
  # Sample Output
-<img width="1189" height="590" alt="download (1)" src="https://github.com/user-attachments/assets/8588cba5-84e4-432b-8fe3-ad2e81ad51c3" />
+<img width="1190" height="590" alt="image" src="https://github.com/user-attachments/assets/4ccea435-e5b2-4a7d-8fca-481fab35f37a" />
 
     Estimated volatility Ticker
     AMD    3.975823
